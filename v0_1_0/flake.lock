@@ -2,49 +2,22 @@
   "nodes": {
     "coverage": {
       "inputs": {
-        "coverage-master": "coverage-master",
         "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648110172,
-        "narHash": "sha256-68XVT7sY3q/nctSHUHCOYiOn6mMW3YFjrERqxEsv9jw=",
-        "owner": "nim-nix-pkgs",
-        "repo": "coverage",
-        "rev": "2085a3bdcaa26f34553193164ca6d79110de9a46",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "coverage",
-        "type": "github"
-      }
-    },
-    "coverage-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "coverage",
           "flakeNimbleLib"
         ],
         "nake": "nake",
         "nixpkgs": [
-          "coverage",
           "nixpkgs"
         ],
         "src-coverage-master": "src-coverage-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648110172,
-        "narHash": "sha256-68XVT7sY3q/nctSHUHCOYiOn6mMW3YFjrERqxEsv9jw=",
+        "lastModified": 1648164279,
+        "narHash": "sha256-CXkiHzzNVJOcOl18QgsHellf4UXPtj1Xs6Ga9W9FEAM=",
         "owner": "nim-nix-pkgs",
         "repo": "coverage",
-        "rev": "2085a3bdcaa26f34553193164ca6d79110de9a46",
+        "rev": "9b5c3f6fccd725691c3bddcfb5ffd2c3f139e812",
         "type": "github"
       },
       "original": {
@@ -80,23 +53,21 @@
       "inputs": {
         "flakeNimbleLib": [
           "coverage",
-          "coverage-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "coverage",
-          "coverage-master",
           "nixpkgs"
         ],
         "src-nake-1_9_4": "src-nake-1_9_4"
       },
       "locked": {
         "dir": "1_9_4",
-        "lastModified": 1648107810,
-        "narHash": "sha256-ruBTNTq26h3Dy5gIA+gMR/F2ITNO8v0FRxdachqr3zI=",
+        "lastModified": 1648163306,
+        "narHash": "sha256-KMq9n99n24H1L1rRZExQRJGj/kWJgkq0oQYt7Kx1lrQ=",
         "owner": "nim-nix-pkgs",
         "repo": "nake",
-        "rev": "ade75ff54e0175fc813bf0531ac78d95309f25bc",
+        "rev": "c2e30b8bc03235ada55eda62256db47266f52f19",
         "type": "github"
       },
       "original": {
