@@ -11,6 +11,7 @@
   inputs.src-nimflux-master.ref   = "refs/heads/master";
   inputs.src-nimflux-master.owner = "tdely";
   inputs.src-nimflux-master.repo  = "nimflux";
+  inputs.src-nimflux-master.dir   = "";
   inputs.src-nimflux-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
