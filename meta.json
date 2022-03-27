@@ -239,6 +239,7 @@
   "license": "MIT",
   "web": "https://github.com/tdely/nimflux",
   "refs": [
+    "refs/heads/gh-actions",
     "refs/heads/gitlab-ci",
     "refs/heads/master",
     "refs/tags/v0.1.0",
