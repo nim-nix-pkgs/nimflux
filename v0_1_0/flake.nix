@@ -11,7 +11,6 @@
   inputs.src-nimflux-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-nimflux-v0_1_0.owner = "tdely";
   inputs.src-nimflux-v0_1_0.repo  = "nimflux";
-  inputs.src-nimflux-v0_1_0.dir   = "";
   inputs.src-nimflux-v0_1_0.type  = "github";
   
   inputs."coverage".owner = "nim-nix-pkgs";

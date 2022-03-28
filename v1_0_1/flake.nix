@@ -11,7 +11,6 @@
   inputs.src-nimflux-v1_0_1.ref   = "refs/tags/v1.0.1";
   inputs.src-nimflux-v1_0_1.owner = "tdely";
   inputs.src-nimflux-v1_0_1.repo  = "nimflux";
-  inputs.src-nimflux-v1_0_1.dir   = "";
   inputs.src-nimflux-v1_0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
